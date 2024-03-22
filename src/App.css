@@ -1,0 +1,53 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.movie {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.movie img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.movie .details {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.movie .title {
+  font-weight: bold;
+}
+
+.movie .year {
+  color: #666;
+}
+
+.movieDetails {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.movieDetails img {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
